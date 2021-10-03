@@ -1,2 +1,2 @@
 # TRXASprefitpack-example
-Example jupyter notebook for TRXASprefitpack
+jupyter notebook example for TRXASprefitpack
