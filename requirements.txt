@@ -2,5 +2,6 @@ numpy
 scipy
 matplotlib
 lmfit
+myst_parser
 TRXASprefitpack
 
