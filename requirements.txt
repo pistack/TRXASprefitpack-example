@@ -3,5 +3,5 @@ scipy
 matplotlib
 lmfit
 myst_parser
-TRXASprefitpack>=0.4.5
+TRXASprefitpack>=0.4.6
 
