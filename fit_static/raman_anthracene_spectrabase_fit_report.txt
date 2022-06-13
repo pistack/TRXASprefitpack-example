@@ -1,0 +1,13 @@
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 4
+    # data points      = 3262
+    # variables        = 2
+    chi-square         = 37079.9610
+    reduced chi-square = 11.3742212
+    Akaike info crit   = 7933.06143
+    Bayesian info crit = 7945.24162
+[[Variables]]
+    fwhm_G:       12.5551727 +/- 0.58364552 (4.65%) (init = 12.55507)
+    fwhm_L:       0 (fixed)
+    peak_factor:  0.97210276 +/- 1.1228e-04 (0.01%) (init = 0.9721027)
