@@ -1,0 +1,26 @@
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 41
+    # data points      = 368
+    # variables        = 7
+    chi-square         = 371.519242
+    reduced chi-square = 1.02913917
+    Akaike info crit   = 17.5025206
+    Bayesian info crit = 44.8591012
+[[Variables]]
+    fwhm:   102.583617 +/- 9.39158866 (9.16%) (init = 100.6334)
+    t_0_1: -168.259539 +/- 8.82564476 (5.25%) (init = -147.9087)
+    t_0_2: -177.195258 +/- 9.14304639 (5.16%) (init = -150.6812)
+    t_0_3: -102.911119 +/- 4.42560128 (4.30%) (init = -109.3978)
+    t_0_4: -174.179523 +/- 4.95706060 (2.85%) (init = -183.2588)
+    tau_1:  503.389912 +/- 20.7362013 (4.12%) (init = 497.2164)
+    tau_2:  10315.8998 +/- 290.994755 (2.82%) (init = 10326.31)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(tau_1, tau_2) = -0.373
+    C(t_0_1, tau_1) = -0.335
+    C(fwhm, tau_1)  = -0.137
+    C(t_0_3, tau_1) = -0.130
+[[Excited State Contribution]]
+    tscan 1 |tscan 2 |tscan 3 |tscan 4 |
+    -33.03 % |32.57 % |66.37 % |49.74 % |
+    66.97 % |67.43 % |33.63 % |50.26 % |
