@@ -1,6 +1,6 @@
 import subprocess
 
-example = ['IRF', 'Rate_eq', 'basic', 'broad']
+example = ['IRF', 'Rate_eq', 'basic', 'broad', 'dmp_osc']
 
 for e in example:
     subprocess.run(['jupyter', 'nbconvert', '--to', 'markdown',
