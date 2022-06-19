@@ -1,0 +1,21 @@
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 6
+    # data points      = 82
+    # variables        = 4
+    chi-square         = 77.6326663
+    reduced chi-square = 0.99529059
+    Akaike info crit   = 3.51206200
+    Bayesian info crit = 13.1389390
+[[Variables]]
+    fwhm:      0.14 (fixed)
+    t_0_1:     0.03376309 +/- 0.01253705 (37.13%) (init = 0.03376317)
+    tau_1:     4.19594298 +/- 1.07231110 (25.56%) (init = 4.195951)
+    period_1:  0.40948136 +/- 0.00148144 (0.36%) (init = 0.4094813)
+    phi_1:     0.48126661 +/- 0.17244025 (35.83%) (init = 0.4812667)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(t_0_1, phi_1)    =  0.938
+    C(t_0_1, period_1) = -0.271
+[[Component Contribution]]
+    tscan 1 |
+    100.00 % |
