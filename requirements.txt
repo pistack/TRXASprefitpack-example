@@ -1,7 +1,6 @@
 numpy
 scipy
 matplotlib
-lmfit
 myst_parser
-TRXASprefitpack>=0.5.0
+TRXASprefitpack>=0.6.0
 
