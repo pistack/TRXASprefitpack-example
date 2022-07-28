@@ -1,0 +1,67 @@
+[Model information]
+    model : decay
+    irf: g
+    fwhm:  0.1585
+    eta:  0.0000
+    base: False
+ 
+[Optimization Method]
+    global: basinhopping
+    leastsq: trf
+ 
+[Optimization Status]
+    nfev: 2472
+    status: 0
+    global_opt msg: requested number of basinhopping iterations completed successfully
+    leastsq_opt msg: `ftol` termination condition is satisfied.
+ 
+[Optimization Results]
+    Total Data points: 328
+    Number of effective parameters: 20
+    Degree of Freedom: 308
+    Chi squared:  358.0396
+    Reduced chi squared:  1.1625
+    AIC (Akaike Information Criterion statistic):  68.7426
+    BIC (Bayesian Information Criterion statistic):  144.6029
+ 
+[Parameters]
+    fwhm_G:  0.15849624 +/-  0.02061881 ( 13.01%)
+    t_0_1_1: -0.22992286 +/-  0.03062355 ( 13.32%)
+    t_0_1_2: -0.16348148 +/-  0.03427836 ( 20.97%)
+    t_0_1_3: -0.19538862 +/-  0.00997584 ( 5.11%)
+    t_0_1_4: -0.17512407 +/-  0.00993371 ( 5.67%)
+    tau_1:  0.20344084 +/-  0.01996799 ( 9.82%)
+    tau_2:  422.27878349 +/-  109.67856504 ( 25.97%)
+    tau_3:  1172.88777271 +/-  443.27079701 ( 37.79%)
+ 
+[Parameter Bound]
+    fwhm_G:  0.075 <=  0.15849624 <=  0.3
+    t_0_1_1: -0.3 <= -0.22992286 <=  0.3
+    t_0_1_2: -0.3 <= -0.16348148 <=  0.3
+    t_0_1_3: -0.3 <= -0.19538862 <=  0.3
+    t_0_1_4: -0.3 <= -0.17512407 <=  0.3
+    tau_1:  0.075 <=  0.20344084 <=  1.2
+    tau_2:  76.8 <=  422.27878349 <=  1228.8
+    tau_3:  307.2 <=  1172.88777271 <=  4915.2
+ 
+[Component Contribution]
+    DataSet example:
+     #tscan	tscan_1	tscan_2	tscan_3	tscan_4
+     decay 1	-60.83%	-34.59%	 49.05%	-51.32%
+     decay 2	 16.68%	 28.29%	-28.50%	 27.22%
+     decay 3	 22.48%	 37.12%	 22.45%	-21.46%
+ 
+[Parameter Correlation]
+    Parameter Correlations >  0.1 are reported.
+    (t_0_1_2, fwhm_G) =  0.116
+    (t_0_1_3, fwhm_G) =  0.226
+    (t_0_1_3, t_0_1_1) =  0.157
+    (t_0_1_4, fwhm_G) =  0.228
+    (t_0_1_4, t_0_1_1) =  0.156
+    (t_0_1_4, t_0_1_3) =  0.236
+    (tau_1, fwhm_G) = -0.495
+    (tau_1, t_0_1_1) = -0.318
+    (tau_1, t_0_1_3) = -0.485
+    (tau_1, t_0_1_4) = -0.483
+    (tau_2, tau_1) = -0.191
+    (tau_3, tau_2) = -0.596
