@@ -132,3 +132,5 @@ dmypy.json
 
 gen_fake_exp.ipynb
 convert_md.py
+*.h5
+*/*.h5
