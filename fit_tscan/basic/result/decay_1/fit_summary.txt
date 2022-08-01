@@ -1,0 +1,48 @@
+[Model information]
+    model : decay
+    irf: g
+    fwhm:  171.1005
+    eta:  0.0000
+    base: False
+ 
+[Optimization Method]
+    leastsq: trf
+ 
+[Optimization Status]
+    nfev: 16
+    status: 0
+    leastsq_opt msg: `ftol` termination condition is satisfied.
+ 
+[Optimization Results]
+    Total Data points: 368
+    Number of effective parameters: 10
+    Degree of Freedom: 358
+    Chi squared:  2006.4107
+    Reduced chi squared:  5.6045
+    AIC (Akaike Information Criterion statistic):  644.1353
+    BIC (Bayesian Information Criterion statistic):  683.2161
+ 
+[Parameters]
+    fwhm_G:  171.10050673 +/-  24.43578323 ( 14.28%)
+    t_0_1_1: -68.37609486 +/-  13.48189596 ( 19.72%)
+    t_0_1_2:  190.16707910 +/-  13.37196650 ( 7.03%)
+    t_0_1_3:  200.00000000 +/-  14.68279554 ( 7.34%)
+    t_0_1_4: -99.41769324 +/-  18.99838208 ( 19.11%)
+    tau_1:  12049.86171533 +/-  701.29000073 ( 5.82%)
+ 
+[Parameter Bound]
+    fwhm_G:  50 <=  171.10050673 <=  200
+    t_0_1_1: -200 <= -68.37609486 <=  200
+    t_0_1_2: -200 <=  190.16707910 <=  200
+    t_0_1_3: -200 <=  200.00000000 <=  200
+    t_0_1_4: -200 <= -99.41769324 <=  200
+    tau_1:  3200 <=  12049.86171533 <=  51200
+ 
+[Component Contribution]
+    DataSet example_basic:
+     #tscan	tscan_1	tscan_2	tscan_3	tscan_4
+     decay 1	 100.00%	 100.00%	 100.00%	 100.00%
+ 
+[Parameter Correlation]
+    Parameter Correlations >  0.1 are reported.
+    (tau_1, fwhm_G) = -0.108

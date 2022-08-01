@@ -1,0 +1,37 @@
+[Model information]
+    model : voigt
+    edge: g
+ 
+[Optimization Method]
+    global: basinhopping
+    leastsq: trf
+ 
+[Optimization Status]
+    nfev: 879
+    status: 0
+    global_opt msg: requested number of basinhopping iterations completed successfully
+    leastsq_opt msg: `xtol` termination condition is satisfied.
+ 
+[Optimization Results]
+    Data points: 160
+    Number of effective parameters: 3
+    Degree of Freedom: 157
+    Chi squared:  20747.1955
+    Reduced chi squared:  132.1477
+    AIC (Akaike Information Criterion statistic):  784.3988
+    BIC (Bayesian Information Criterion statistic):  793.6243
+ 
+[Parameters]
+    E0_g:  8991.52366886 +/-  0.11462345 ( 0.00%)
+    fwhm_(G, edge):  7.45235542 +/-  0.37388965 ( 5.02%)
+ 
+[Parameter Bound]
+    E0_g:  8972 <=  8991.52366886 <=  9012
+    fwhm_(G, edge):  5 <=  7.45235542 <=  20
+ 
+[Component Contribution]
+    Static spectrum
+     g type edge:  100.00%
+ 
+[Parameter Correlation]
+    Parameter Correlations >  0.1 are reported.

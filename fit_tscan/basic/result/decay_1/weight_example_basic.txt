@@ -1,0 +1,2 @@
+# tscan_example_basic_1	tscan_example_basic_2	tscan_example_basic_3	tscan_example_basic_4
+1.01454046e+00 7.36230973e-01 5.37997816e-01 3.86707411e-01

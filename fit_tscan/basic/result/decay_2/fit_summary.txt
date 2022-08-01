@@ -1,0 +1,56 @@
+[Model information]
+    model : decay
+    irf: g
+    fwhm:  104.6696
+    eta:  0.0000
+    base: False
+ 
+[Optimization Method]
+    global: basinhopping
+    leastsq: trf
+ 
+[Optimization Status]
+    nfev: 1075
+    status: 0
+    global_opt msg: requested number of basinhopping iterations completed successfully
+    leastsq_opt msg: `ftol` termination condition is satisfied.
+ 
+[Optimization Results]
+    Total Data points: 368
+    Number of effective parameters: 15
+    Degree of Freedom: 353
+    Chi squared:  319.793
+    Reduced chi squared:  0.9059
+    AIC (Akaike Information Criterion statistic): -21.6705
+    BIC (Bayesian Information Criterion statistic):  36.9507
+ 
+[Parameters]
+    fwhm_G:  104.66960523 +/-  8.12215094 ( 7.76%)
+    t_0_1_1: -70.97553124 +/-  4.75810057 ( 6.70%)
+    t_0_1_2:  145.13074354 +/-  6.93055886 ( 4.78%)
+    t_0_1_3: -128.27622476 +/-  5.69508048 ( 4.44%)
+    t_0_1_4: -60.83252606 +/-  4.09775171 ( 6.74%)
+    tau_1:  497.68173788 +/-  17.33265494 ( 3.48%)
+    tau_2:  9963.16446284 +/-  266.19411136 ( 2.67%)
+ 
+[Parameter Bound]
+    fwhm_G:  50 <=  104.66960523 <=  200
+    t_0_1_1: -200 <= -70.97553124 <=  200
+    t_0_1_2: -200 <=  145.13074354 <=  200
+    t_0_1_3: -200 <= -128.27622476 <=  200
+    t_0_1_4: -200 <= -60.83252606 <=  200
+    tau_1:  50 <=  497.68173788 <=  800
+    tau_2:  3200 <=  9963.16446284 <=  51200
+ 
+[Component Contribution]
+    DataSet example_basic:
+     #tscan	tscan_1	tscan_2	tscan_3	tscan_4
+     decay 1	-7.05%	-29.72%	-62.67%	 46.61%
+     decay 2	 92.95%	 70.28%	 37.33%	 53.39%
+ 
+[Parameter Correlation]
+    Parameter Correlations >  0.1 are reported.
+    (tau_1, fwhm_G) = -0.177
+    (tau_1, t_0_1_3) = -0.351
+    (tau_1, t_0_1_4) = -0.124
+    (tau_2, tau_1) = -0.371
