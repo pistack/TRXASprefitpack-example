@@ -1,6 +1,7 @@
 numpy
 scipy
 matplotlib
+h5py
 myst_parser
-TRXASprefitpack>=0.6.0
+TRXASprefitpack>=0.6.1
 
