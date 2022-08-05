@@ -1,0 +1,60 @@
+[Model information]
+    model : thy
+    policy: shift
+    edge: g
+ 
+[Optimization Method]
+    global: basinhopping
+    leastsq: trf
+ 
+[Optimization Status]
+    nfev: 4450
+    status: 0
+    global_opt msg: requested number of basinhopping iterations completed successfully
+    leastsq_opt msg: Both `ftol` and `xtol` termination conditions are satisfied.
+ 
+[Optimization Results]
+    Data points: 51
+    Number of effective parameters: 9
+    Degree of Freedom: 42
+    Chi squared:  230.6082
+    Reduced chi squared:  5.4907
+    AIC (Akaike Information Criterion statistic):  94.9536
+    BIC (Bayesian Information Criterion statistic):  112.34
+ 
+[Parameters]
+    fwhm_G:  0.29532517 +/-  0.01401362 ( 4.75%)
+    fwhm_L:  0.50440989 +/-  0.01002314 ( 1.99%)
+    peak_shift 1: -862.50934649 +/-  0.01065663 ( 0.00%)
+    peak_shift 2: -862.99778706 +/-  0.00486672 ( 0.00%)
+    E0_g 1:  861.56579908 +/-  0.02473659 ( 0.00%)
+    fwhm_(g, edge 1):  2.00000000 +/-  0.08016434 ( 4.01%)
+ 
+[Parameter Bound]
+    fwhm_G:  0.15 <=  0.29532517 <=  0.6
+    fwhm_L:  0.25 <=  0.50440989 <=  1
+    peak_shift 1: -862.92348546 <= -862.50934649 <= -862.27651454
+    peak_shift 2: -863.32348546 <= -862.99778706 <= -862.67651454
+    E0_g 1:  860 <=  861.56579908 <=  864
+    fwhm_(g, edge 1):  0.5 <=  2.00000000 <=  2
+ 
+[Component Contribution]
+    Static spectrum
+     thy 1:  15.14%
+     thy 2:  34.96%
+     g type edge 1:  49.89%
+ 
+[Parameter Correlation]
+    Parameter Correlations >  0.1 are reported.
+    (fwhm_L, fwhm_G) = -0.847
+    (peak_shift 1, fwhm_G) =  0.298
+    (peak_shift 1, fwhm_L) = -0.59
+    (peak_shift 2, fwhm_G) = -0.385
+    (peak_shift 2, fwhm_L) =  0.61
+    (peak_shift 2, peak_shift 1) = -0.692
+    (E0_g 1, fwhm_G) = -0.143
+    (E0_g 1, fwhm_L) =  0.19
+    (E0_g 1, peak_shift 1) = -0.131
+    (fwhm_(g, edge 1), fwhm_L) = -0.146
+    (fwhm_(g, edge 1), peak_shift 1) =  0.165
+    (fwhm_(g, edge 1), E0_g 1) =  0.173
