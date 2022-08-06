@@ -1,0 +1,71 @@
+[Model information]
+    model : thy
+    policy: shift
+    edge: g
+ 
+[Optimization Method]
+    global: basinhopping
+    leastsq: trf
+ 
+[Optimization Status]
+    nfev: 8424
+    status: 0
+    global_opt msg: requested number of basinhopping iterations completed successfully
+    leastsq_opt msg: `xtol` termination condition is satisfied.
+ 
+[Optimization Results]
+    Data points: 51
+    Number of effective parameters: 12
+    Degree of Freedom: 39
+    Chi squared:  46.9452
+    Reduced chi squared:  1.2037
+    AIC (Akaike Information Criterion statistic):  19.7749
+    BIC (Bayesian Information Criterion statistic):  42.9568
+ 
+[Parameters]
+    fwhm_G:  0.29580398 +/-  0.00657453 ( 2.22%)
+    fwhm_L:  0.50161718 +/-  0.00489579 ( 0.98%)
+    peak_shift 1:  862.49942439 +/-  0.00535139 ( 0.00%)
+    peak_shift 2:  862.99822940 +/-  0.00227582 ( 0.00%)
+    E0_g 1:  860.50180204 +/-  0.06749189 ( 0.01%)
+    E0_g 2:  862.01342842 +/-  0.05335751 ( 0.01%)
+    fwhm_(g, edge 1):  0.95185222 +/-  0.14656802 ( 15.40%)
+    fwhm_(g, edge 2):  1.40694983 +/-  0.10695438 ( 7.60%)
+ 
+[Parameter Bound]
+    fwhm_G:  0.15 <=  0.29580398 <=  0.6
+    fwhm_L:  0.25 <=  0.50161718 <=  1
+    peak_shift 1:  862.17651454 <=  862.49942439 <=  862.82348546
+    peak_shift 2:  862.67651454 <=  862.99822940 <=  863.32348546
+    E0_g 1:  858.5 <=  860.50180204 <=  862.5
+    E0_g 2:  858 <=  862.01342842 <=  866
+    fwhm_(g, edge 1):  0.5 <=  0.95185222 <=  2
+    fwhm_(g, edge 2):  1 <=  1.40694983 <=  4
+ 
+[Component Contribution]
+    Static spectrum
+     thy 1:  14.90%
+     thy 2:  35.14%
+     g type edge 1:  15.77%
+     g type edge 2:  34.19%
+ 
+[Parameter Correlation]
+    Parameter Correlations >  0.1 are reported.
+    (fwhm_L, fwhm_G) = -0.843
+    (peak_shift 1, fwhm_G) = -0.322
+    (peak_shift 1, fwhm_L) =  0.625
+    (peak_shift 2, fwhm_G) =  0.385
+    (peak_shift 2, fwhm_L) = -0.61
+    (peak_shift 2, peak_shift 1) = -0.644
+    (E0_g 2, fwhm_L) = -0.116
+    (E0_g 2, peak_shift 1) = -0.146
+    (E0_g 2, E0_g 1) =  0.903
+    (fwhm_(g, edge 1), fwhm_G) =  0.142
+    (fwhm_(g, edge 1), fwhm_L) = -0.23
+    (fwhm_(g, edge 1), peak_shift 1) = -0.286
+    (fwhm_(g, edge 1), E0_g 1) =  0.764
+    (fwhm_(g, edge 1), E0_g 2) =  0.772
+    (fwhm_(g, edge 2), peak_shift 1) =  0.119
+    (fwhm_(g, edge 2), E0_g 1) = -0.802
+    (fwhm_(g, edge 2), E0_g 2) = -0.858
+    (fwhm_(g, edge 2), fwhm_(g, edge 1)) = -0.64

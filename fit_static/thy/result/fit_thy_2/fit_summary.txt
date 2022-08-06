@@ -1,0 +1,48 @@
+[Model information]
+    model : thy
+    policy: shift
+ 
+[Optimization Method]
+    global: basinhopping
+    leastsq: trf
+ 
+[Optimization Status]
+    nfev: 2029
+    status: 0
+    global_opt msg: requested number of basinhopping iterations completed successfully
+    leastsq_opt msg: Both `ftol` and `xtol` termination conditions are satisfied.
+ 
+[Optimization Results]
+    Data points: 51
+    Number of effective parameters: 6
+    Degree of Freedom: 45
+    Chi squared:  119900.9646
+    Reduced chi squared:  2664.4659
+    AIC (Akaike Information Criterion statistic):  407.8924
+    BIC (Bayesian Information Criterion statistic):  419.4833
+ 
+[Parameters]
+    fwhm_G:  0.15000000 +/-  0.74817374 ( 498.78%)
+    fwhm_L:  0.63972661 +/-  0.18223963 ( 28.49%)
+    peak_shift 1:  862.67651455 +/-  0.20643404 ( 0.02%)
+    peak_shift 2:  862.94776597 +/-  0.07788650 ( 0.01%)
+ 
+[Parameter Bound]
+    fwhm_G:  0.15 <=  0.15000000 <=  0.6
+    fwhm_L:  0.25 <=  0.63972661 <=  1
+    peak_shift 1:  862.67651454 <=  862.67651455 <=  863.32348546
+    peak_shift 2:  862.67651454 <=  862.94776597 <=  863.32348546
+ 
+[Component Contribution]
+    Static spectrum
+     thy 1:  29.36%
+     thy 2:  70.64%
+ 
+[Parameter Correlation]
+    Parameter Correlations >  0.1 are reported.
+    (fwhm_L, fwhm_G) = -0.873
+    (peak_shift 1, fwhm_G) = -0.421
+    (peak_shift 1, fwhm_L) =  0.315
+    (peak_shift 2, fwhm_G) =  0.453
+    (peak_shift 2, fwhm_L) = -0.338
+    (peak_shift 2, peak_shift 1) = -0.842

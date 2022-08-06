@@ -1,0 +1,40 @@
+[Model information]
+    model : thy
+    policy: shift
+ 
+[Optimization Method]
+    global: basinhopping
+    leastsq: trf
+ 
+[Optimization Status]
+    nfev: 1342
+    status: 0
+    global_opt msg: requested number of basinhopping iterations completed successfully
+    leastsq_opt msg: `xtol` termination condition is satisfied.
+ 
+[Optimization Results]
+    Data points: 51
+    Number of effective parameters: 4
+    Degree of Freedom: 47
+    Chi squared:  137821.3421
+    Reduced chi squared:  2932.369
+    AIC (Akaike Information Criterion statistic):  410.9963
+    BIC (Bayesian Information Criterion statistic):  418.7236
+ 
+[Parameters]
+    fwhm_G:  0.54185351 +/-  0.30982399 ( 57.18%)
+    fwhm_L:  0.52770226 +/-  0.24076693 ( 45.63%)
+    peak_shift 1:  862.67651454 +/-  0.03412162 ( 0.00%)
+ 
+[Parameter Bound]
+    fwhm_G:  0.15 <=  0.54185351 <=  0.6
+    fwhm_L:  0.25 <=  0.52770226 <=  1
+    peak_shift 1:  862.67651454 <=  862.67651454 <=  863.32348546
+ 
+[Component Contribution]
+    Static spectrum
+     thy 1:  100.00%
+ 
+[Parameter Correlation]
+    Parameter Correlations >  0.1 are reported.
+    (fwhm_L, fwhm_G) = -0.92
