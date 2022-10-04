@@ -1,6 +1,9 @@
 import subprocess
 
-example = ['basic', 'IRF', 'Rate_eq', 'basic', 'broad', 'dmp_osc', 'BenchMark']
+example = ['IRF', 'Rate_eq', 'Exp_Conv_IRF', 'Dmp_Osc_Conv_IRF',
+'Fit_Static_voigt', 'Fit_Static_thy',
+'Fit_Transient_Exp', 'Fit_Transient_Raise', 'Fit_Transient_Both',
+'Associated_Difference_Spectrum']
 for e in example:
     subprocess.run(['jupyter', 'nbconvert', '--to', 'markdown',
                     f'{e}.ipynb', '--output',
